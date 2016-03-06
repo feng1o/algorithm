@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BA23FE50-1214-4D08-9484-4A7C68F1702F}</ProjectGuid>
+    <ProjectGuid>{3AE618F2-7556-4F0B-B5F3-3B4C4776CD59}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>seqlist</RootNamespace>
-    <ProjectName>list-seqlist</ProjectName>
+    <RootNamespace>heappriorityQueue</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -79,12 +78,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="seqList.cpp" />
-    <ClCompile Include="seqList_pointer.cpp" />
+    <ClCompile Include="heap.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="seqList.h" />
-    <ClInclude Include="seqlist_pointer.h" />
+    <ClInclude Include="heap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
