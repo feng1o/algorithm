@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DBF871FB-9DAB-4F45-BD39-28550BDB3BDE}</ProjectGuid>
+    <ProjectGuid>{ACAEC02F-6548-4FD1-9F05-2183DC8C5E5E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>vc处理标准输入输出</RootNamespace>
+    <RootNamespace>hashseparateChaining</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,9 +78,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cinCout.cpp" />
-    <ClCompile Include="cinCout2.cpp" />
-    <ClCompile Include="scanf.cpp" />
+    <ClCompile Include="hash.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hash.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
