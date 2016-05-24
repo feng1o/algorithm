@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="arrayAsArgument.c">
+    <ClCompile Include="28全排列递归.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

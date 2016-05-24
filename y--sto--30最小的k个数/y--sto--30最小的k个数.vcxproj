@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F90F06BC-7785-457B-B1A8-D6C0C577F87C}</ProjectGuid>
+    <ProjectGuid>{8E31B912-3529-4FBA-9B39-81C89C8BB5A3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>algsort</RootNamespace>
+    <RootNamespace>ysto30最小的k个数</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,19 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="creatArrPrinArr.h" />
-    <ClInclude Include="sort.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="bubblesort.cpp" />
-    <ClCompile Include="creatArrPrintArr.cpp" />
-    <ClCompile Include="heapSort.cpp" />
-    <ClCompile Include="insertsort.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="mergeSort.cpp" />
-    <ClCompile Include="quickSort.cpp" />
-    <ClCompile Include="selectSort.cpp" />
-    <ClCompile Include="shellsort.cpp" />
+    <ClCompile Include="leastNumbers.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
